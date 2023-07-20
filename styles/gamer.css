@@ -24,7 +24,6 @@ font-weight: 700;
 }
 .nav-div{
    display: flex;
-   background-image: url("../images/Group\ 14.png");
 }
 .nav-list{
     display: flex;
@@ -36,8 +35,22 @@ margin-right: 70px;
 }
 .nav-list > li {
     font-weight: 500;
-list-style: none;
-margin-right: 70px;
+margin-right: 60px;
+}
+.nav-list-icon{
+    width: 262px;
+height: 56px;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+}
+.nav-list > li > img {
+    width: 33.916px;
+    height: 24px;
+    width: 24px;
+height: 24px;
+}
+.icon-yt {
+    margin-right: 400px;
 }
 /* main section */
 .section-main{
@@ -45,10 +58,12 @@ margin-right: 70px;
 }
 .main-div{
     margin-bottom: 100px;
-    background-image: url();
+    background-image: url("../images/Group\ 14.png");
 }
 .main-sec-img{
-    width: 100%;
+    width: 80%;
+    height: 80%;
+    margin-left: 70px;
 }
 .main-heading{
     color: #0B0223;
@@ -145,9 +160,11 @@ background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repe
 .sec-games{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .games-click{
     display: flex;
+    margin: 20px;   
 }
 /* footer section */
 .footer{
